@@ -1,0 +1,24 @@
+{
+  "game": "REPLACE_WITH_VERIFIED_GAME_INSTANCE",
+  "company": "REPLACE_WITH_VERIFIED_COMPANY",
+  "roundDays": 20,
+  "entities": {
+    "Sales": {
+      "entity": "REPLACE_WITH_SALES_ENTITYSET",
+      "scopeField": "SALES_ORGANIZATION",
+      "scopeValue": "REPLACE_WITH_VERIFIED_SALES_ORG"
+    },
+    "Inventory": {
+      "entity": "REPLACE_WITH_INVENTORY_ENTITYSET",
+      "scopeField": "PLANT",
+      "scopeValue": "REPLACE_WITH_VERIFIED_PLANT"
+    },
+    "Market": {
+      "entity": "REPLACE_WITH_MARKET_ENTITYSET",
+      "scopeField": "SALES_ORGANIZATION",
+      "scopeValue": "Market"
+    }
+  },
+  "productMap": {},
+  "materialMaster": {}
+}

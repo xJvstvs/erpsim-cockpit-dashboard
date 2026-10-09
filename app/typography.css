@@ -1,0 +1,175 @@
+/* Operational labels remain readable on desktop and tablet; small type is reserved for metadata. */
+[data-slot="sidebar-inset"] {
+  min-width: 0;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .topbar {
+    padding-inline: 20px;
+  }
+  .topbar > div:first-child > span,
+  .topbar > div:first-child > svg {
+    display: none;
+  }
+  .topbar-right .status-pill {
+    display: none;
+  }
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.metric-label,
+.select-field > span,
+.select-field select,
+.segmented button,
+.topbar,
+.topbar button,
+.panel-head button,
+.data-table,
+.data-table input,
+.data-table th,
+.action-bar,
+.action-bar button,
+.inline-controls > label,
+.inline-controls button,
+.attention-row,
+.attention-row button,
+.summary-list > div,
+.finance-summary > div,
+.trend-strip span,
+.settings-button {
+  font-size: 14px;
+}
+.panel h2 {
+  font-size: 18px;
+}
+.panel-head p,
+.metric > span,
+.data-notice,
+.period-badge,
+.chart-legend,
+.trend-strip small,
+.trend-strip p,
+.summary-list small,
+.finance-summary .summary-note,
+.attention-row p,
+.data-table small,
+.subtle-note,
+.capacity-row small,
+.suggestion p,
+.suggestion small,
+.account-tree details > div,
+.draft-message,
+.source-list > div {
+  font-size: 12px;
+}
+.metric-label {
+  line-height: 1.5;
+}
+.metric strong {
+  font-size: 28px;
+}
+.filter-bar {
+  row-gap: 14px;
+}
+.select-field select {
+  height: 38px;
+}
+.select-field > span {
+  font-weight: 500;
+}
+.panel-head p {
+  line-height: 1.6;
+}
+.summary-list small {
+  line-height: 1.5;
+}
+.metric > span {
+  line-height: 1.6;
+}
+.trend-strip {
+  grid-template-columns: 1fr 1fr 1.2fr;
+}
+.trend-strip strong {
+  font-size: 18px;
+}
+.source-list small {
+  font-size: 11px;
+}
+.data-table th {
+  font-size: 13px;
+}
+.suggestion p {
+  font-size: 14px;
+}
+.account-tree summary {
+  font-size: 16px;
+}
+.row-tag {
+  font-size: 12px;
+}
+.cockpit-sidebar [data-slot="sidebar-menu-button"] {
+  height: 48px;
+}
+.simulation-card b,
+.simulation-card p {
+  font-size: 12px;
+}
+.connection-address span {
+  font-size: 14px;
+}
+.capability-list > div {
+  font-size: 14px;
+}
+.capability-list small {
+  font-size: 12px;
+}
+@media (max-width: 1200px) {
+  .trend-strip {
+    grid-template-columns: 1fr 1fr;
+  }
+  .trend-strip p {
+    grid-column: 1/-1;
+  }
+  .metric strong {
+    font-size: 27px;
+  }
+}
+@media (max-width: 767px) {
+  .select-field select,
+  .select-field:first-child select,
+  .select-field > span,
+  .segmented button,
+  .topbar button {
+    font-size: 14px;
+  }
+  .metric-label {
+    font-size: 12px;
+  }
+  .metric strong {
+    font-size: 23px;
+  }
+  .metric > span {
+    font-size: 11px;
+  }
+  .trend-strip strong {
+    font-size: 17px;
+  }
+  .data-notice {
+    font-size: 12px;
+  }
+  .chart-legend {
+    font-size: 11px;
+  }
+  .sales-chart {
+    height: 280px !important;
+  }
+  .workspace-footer {
+    font-size: 11px;
+  }
+  .data-table {
+    font-size: 14px;
+  }
+  .panel-head p {
+    font-size: 12px;
+  }
+}
